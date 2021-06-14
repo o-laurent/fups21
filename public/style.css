@@ -1,0 +1,128 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    background-image: url("./assets/images/background.png");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    font-family: "baro", Arial, sans-serif;
+    font-size: 90%
+}
+
+a {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+#date {
+    color: rgb(0, 66, 73);
+}
+
+#title {
+    font-size: 200%;
+    font-variant: small-caps;
+    color: rgb(0, 66, 73);
+    margin: 0;
+
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+
+    font-family: "typographica", "baro", Arial, sans-serif;
+}
+
+.vl {
+  border-left: 2px dashed white;
+  height: 60%;
+}
+
+.hl {
+    border-top: 1px dashed white;
+    width: 80%;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lineup_time {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    mix-blend-mode: difference;
+}
+
+#time {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+
+#marshall_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    margin-right: 3%;
+}
+
+.vertical {
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigfont {
+    font-size:150%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.title_part {
+    margin: 0;
+    line-height: 85%;
+}
+
+.part1 {
+    font-size: 150%;
+    line-height: 90%;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "typographica";
+    src: url("./assets/typographica.otf");
+}
+
+@font-face {
+    font-family: "baro";
+    src: url("./assets/Baro\ Plain.otf");
+}
