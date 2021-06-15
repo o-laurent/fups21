@@ -18,12 +18,13 @@ body {
     height: 100%;
 
     font-family: "baro", Arial, sans-serif;
-    font-size: 90%
+    font-size: 90%;
 }
 
-a {
+.logo {
     width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -44,14 +45,29 @@ a {
     font-family: "typographica", "baro", Arial, sans-serif;
 }
 
+#footer {
+    font-size: 100%;
+    font-family: Arial;
+    margin-top: 5%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+}
+
 .vl {
-  border-left: 2px dashed white;
-  height: 60%;
+    border-left: 2px dashed white;
+    height: 60%;
 }
 
 .hl {
     border-top: 1px dashed white;
     width: 80%;
+}
+
+.link {
+    margin-left: 0.3em;
+    color: rgb(17, 176, 198);
+    text-decoration: none; /* no underline */
 }
 
 #top {
@@ -101,7 +117,7 @@ a {
 }
 
 .bigfont {
-    font-size:150%;
+    font-size: 150%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
